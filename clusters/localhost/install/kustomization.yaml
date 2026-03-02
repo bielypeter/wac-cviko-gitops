@@ -8,3 +8,6 @@ labels:
 
 resources:
 - ../../../apps/biely-ambulance-ufe
+
+components:
+- ../../../components/version-developers
