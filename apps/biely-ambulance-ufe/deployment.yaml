@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: biely-ambulance-ufe-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
         pod: biely-ambulance-ufe-label
