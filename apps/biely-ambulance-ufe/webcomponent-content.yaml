@@ -4,7 +4,11 @@ metadata:
   name: biely-ambulance-ufe-content
 spec:
   microFrontend: biely-ambulance-ufe
-  element: biely-ambulance-wl-list
+  element: biely-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: ./biely-ambulance-wl/
+
   displayRules:
     - allOf:
       - context-name: main-content
