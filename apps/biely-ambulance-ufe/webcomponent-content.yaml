@@ -6,8 +6,10 @@ spec:
   microFrontend: biely-ambulance-ufe
   element: biely-ambulance-wl-app
   attributes:
-    - name: base-path
-      value: ./biely-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5001/api
+    - name: ambulance-id
+      value: bobulova
 
   displayRules:
     - allOf:
