@@ -8,7 +8,12 @@ labels:
 
 resources:
 - ../../../apps/biely-ambulance-ufe
+- ../../../apps/biely-ambulance-webapi
 - ../../../apps/mongo-express
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/bielypeter/ambulance-webapi//deployments/kustomize/components/mongodb
