@@ -8,6 +8,7 @@ labels:
 
 resources:
 - ../../../apps/biely-ambulance-ufe
+- ../../../apps/mongo-express
 
 components:
 - ../../../components/version-developers
