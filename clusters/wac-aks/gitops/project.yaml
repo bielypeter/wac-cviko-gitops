@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: biely-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: Zoznam čakajúcich Biely # napr. "Zoznam čakajúcich <pfx>"
+  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Peter Biely" # Zadajte mená autorov
+  azureLink: "https://<sub-domain>.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/bielypeter/wac-cviko"
+  backendRepoUrl: "https://github.com/bielypeter/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/bielypeter/wac-cviko-gitops"
