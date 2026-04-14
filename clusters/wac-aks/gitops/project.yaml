@@ -6,7 +6,7 @@ spec:
   title: Zoznam čakajúcich Biely # napr. "Zoznam čakajúcich <pfx>"
   description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Peter Biely" # Zadajte mená autorov
-  azureLink: "https://<sub-domain>.azurewebsites.net"
+  azureLink: ""
   frontendRepoUrl: "https://github.com/bielypeter/wac-cviko"
   backendRepoUrl: "https://github.com/bielypeter/ambulance-webapi"
   gitopsRepoUrl: "https://github.com/bielypeter/wac-cviko-gitops"
