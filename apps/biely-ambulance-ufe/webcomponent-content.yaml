@@ -6,6 +6,8 @@ spec:
   microFrontend: biely-ambulance-ufe
   element: biely-ambulance-wl-app
   attributes:
+    - name: base-path
+      value: ./biely-ambulance-wl/
     - name: api-base
       value: /biely-api
     - name: ambulance-id
